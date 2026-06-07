@@ -4,7 +4,8 @@ url: "https://kogantisharma.github.io"
 baseurl: ""
 repository: "kogantisharma/kogantisharma.github.io"
 
-theme: jekyll-theme-cayman
+remote_theme: "vidhyav656/startbootstrap-stylish-portfolio-jekyll"
+author: "Sri Koganti"
 
 include:
   - _pages
@@ -29,6 +30,7 @@ kramdown:
   auto_ids: true
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
