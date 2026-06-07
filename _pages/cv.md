@@ -1,18 +1,11 @@
 ---
 title: "Curriculum Vitae"
 permalink: /cv/
-layout: single
-author_profile: true
+layout: page
 toc: true
-toc_label: "Contents"
-toc_icon: "file-alt"
-toc_sticky: true
-classes: wide
 ---
 
-<a href="/assets/files/Sri_Koganti_CV.pdf" class="btn btn--primary btn--large" download>
-  <i class="fas fa-download"></i>&nbsp; Download CV (PDF)
-</a>
+[Download CV (PDF)](/assets/files/Sri_Koganti_CV.pdf){: .btn}
 
 ---
 
@@ -33,20 +26,22 @@ principles · Kubernetes at scale · Developer platform tooling · Python automa
 
 ## Core Competencies
 
-### Cloud & Infrastructure
+### Proven — Production Experience
+
 `AWS (EKS, ECS, Lambda, CloudFront, S3, CloudWatch, Route 53, RDS, Kinesis, Athena, SNS, SQS)`
-`Kubernetes` `Docker` `Terraform` `Ansible` `Multi-region architecture` `Disaster Recovery` `Active-active design`
+`Kubernetes` `Docker` `Terraform` `Ansible` `Jenkins` `GitHub Actions` `GitHub Apps`
+`Python` `Bash` `REST APIs` `Scrapy` `Pandas`
+`Datadog` `Splunk` `Grafana / Prometheus` `OpenTelemetry (OTEL)`
+`AWS Inspector` `AWS GuardDuty` `Prisma Cloud` `Rapid7`
+`IAM / RBAC` `Azure Active Directory` `Secrets management`
+`SRE (SLIs / SLOs / error budgets)` `Event-driven automation` `Multi-region DR`
 
-### DevOps & Platform Engineering
-`Jenkins` `GitHub Actions` `GitHub Apps` `GitOps` `Webhook delivery platforms`
-`ServiceNow integration` `Event-driven automation` `SRE (SLIs / SLOs / error budgets)`
+### AI / MLOps — Actively Upskilling
 
-### Observability & Security
-`Datadog` `Splunk` `Grafana / Prometheus` `OpenTelemetry (OTEL)` `AWS Inspector` `AWS GuardDuty`
-`Prisma Cloud` `Rapid7` `Secrets management` `RBAC` `Azure Active Directory (AAD)`
+> Building hands-on projects to demonstrate production-grade AI engineering.
 
-### Languages & Frameworks
-`Python (advanced)` `Bash` `HCL (Terraform)` `YAML` `REST APIs` `Scrapy` `Pandas`
+`LangChain` `RAG architectures` `Pinecone` `FAISS` `OpenAI API` `HuggingFace Transformers`
+`MLflow` `AWS SageMaker` `DVC` `Kubeflow` `Vector databases` `Prompt engineering`
 
 ---
 

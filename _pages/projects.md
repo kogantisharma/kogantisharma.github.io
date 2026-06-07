@@ -1,13 +1,7 @@
 ---
 title: "Projects"
 permalink: /projects/
-layout: collection
-collection: projects
-entries_layout: grid
-classes: wide
-author_profile: false
-sort_by: date
-sort_order: reverse
+layout: page
 ---
 
 A selection of personal MLOps and AI engineering projects that demonstrate

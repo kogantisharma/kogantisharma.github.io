@@ -4,53 +4,19 @@
 
 @charset "utf-8";
 
-// 1. Skin (must come before the main import)
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'dark' }}";
-
-// 2. Main theme partials
-@import "minimal-mistakes";
+@import "so-simple";
 
 // =============================================================================
-// Custom overrides
+// Minor overrides
 // =============================================================================
 
-// Slightly warmer code block background for dark skin
-.highlight {
-  background-color: #161b22;
-  border-radius: 6px;
+// Tighten table spacing on skills tables
+.page__content table td:first-child {
+  white-space: nowrap;
+  font-weight: 600;
 }
 
-// Tighter sidebar on wide screens
-.sidebar {
-  font-size: 0.875em;
-}
-
-// Project cards — consistent teaser image height
-.archive__item-teaser {
-  height: 180px;
-  object-fit: cover;
-}
-
-// Pill-style tags
-.page__taxonomy-item {
-  border-radius: 4px;
-  font-size: 0.75em;
-  padding: 2px 8px;
-}
-
-// Subtle separator between CV sections
-.page__content h2 {
-  border-bottom: 1px solid #30363d;
-  padding-bottom: 0.3em;
-  margin-top: 2em;
-}
-
-// Table styling for CV metrics
-.page__content table {
-  font-size: 0.9em;
-}
-
-// Hero subtitle colour on splash page
-.page__hero--overlay .page__title {
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+// Clean CTA button
+.btn {
+  border-radius: 3px;
 }

@@ -1,6 +1,6 @@
 # =============================================================================
-# Sri Koganti | Senior Cloud & MLOps Engineer
-# Jekyll + Minimal Mistakes Theme Configuration
+# Sri Koganti | Senior Cloud & Platform Engineer
+# Jekyll + So Simple Theme Configuration
 # =============================================================================
 
 # -----------------------------------------------
@@ -9,27 +9,20 @@
 locale                   : "en-IE"
 title                    : "Sri Koganti"
 title_separator          : "|"
-subtitle                 : "Senior Cloud & MLOps Engineer"
+subtitle                 : "Senior Cloud & Platform Engineer"
 name                     : "Sri Koganti"
 description              : >-
-  Senior Cloud Engineer in Cork, Ireland with 10+ years building enterprise platforms
-  at Fidelity Investments and Forcepoint. AWS Solutions Architect & CKAD certified.
-  Specialising in Kubernetes, MLOps, and AI platform engineering.
+  Senior Cloud Engineer in Cork, Ireland. 10+ years at Fidelity Investments and Forcepoint.
+  AWS Solutions Architect & CKAD certified. Building toward MLOps and AI Engineering.
 url                      : "https://kogantisharma.github.io"
 baseurl                  : ""
 repository               : "kogantisharma/kogantisharma.github.io"
-teaser                   : "/assets/images/teaser-default.png"
-logo                     : "/assets/images/logo.png"
-masthead_title           : "Sri Koganti"
-breadcrumbs              : true
 words_per_minute         : 200
-enable_copy_code_button  : true
 
 # -----------------------------------------------
 # SEO
 # -----------------------------------------------
 google_site_verification :
-og_image                 : "/assets/images/og-image.png"
 
 social:
   type : Person
@@ -45,9 +38,8 @@ author:
   name     : "Sri Koganti"
   avatar   : "/assets/images/profile.jpg"
   bio      : >-
-    Senior Cloud & Platform Engineer in Cork, Ireland. AWS Certified Solutions Architect
-    & CKAD. 10+ years building enterprise platforms at Fidelity Investments and Forcepoint.
-    Building in MLOps and AI Platform Engineering.
+    Senior Cloud & Platform Engineer in Cork, Ireland.
+    AWS SA · CKAD certified. Building toward MLOps and AI Engineering.
   location : "Cork, Ireland"
   links:
     - label : "LinkedIn"
@@ -56,15 +48,15 @@ author:
     - label : "GitHub"
       icon  : "fab fa-fw fa-github"
       url   : "https://github.com/kogantisharma"
-    - label : "CV / Résumé"
+    - label : "Download CV"
       icon  : "fas fa-fw fa-file-pdf"
       url   : "/assets/files/Sri_Koganti_CV.pdf"
 
 # -----------------------------------------------
 # THEME
 # -----------------------------------------------
-remote_theme            : "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin   : "dark"   # air | aqua | contrast | dark | dirt | neon | mint | plum | sunrise
+remote_theme : "mmistakes/so-simple-theme@3.2.0"
+skin         : "/assets/css/skins/default.css"
 
 # -----------------------------------------------
 # READING FILES
@@ -132,19 +124,17 @@ timezone    : "Europe/Dublin"
 # PLUGINS
 # -----------------------------------------------
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jekyll-include-cache
   - jekyll-seo-tag
 
 whitelist:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jekyll-include-cache
   - jekyll-seo-tag
 
 # -----------------------------------------------
@@ -164,46 +154,25 @@ defaults:
       path : ""
       type : posts
     values:
-      layout         : single
-      author_profile : true
-      read_time      : true
-      comments       : false
-      share          : true
-      related        : true
-      show_date      : true
+      layout    : post
+      show_date : true
 
   # _pages
   - scope:
       path : "_pages"
       type : pages
     values:
-      layout         : single
-      author_profile : true
+      layout : page
 
   # _projects
   - scope:
       path : ""
       type : projects
     values:
-      layout         : single
-      author_profile : false
-      share          : true
-      toc            : true
-      toc_label      : "On this page"
-      toc_icon       : "list-alt"
-      toc_sticky     : true
+      layout : page
+      toc    : true
 
 # -----------------------------------------------
-# ANALYTICS
+# ANALYTICS (enable when ready)
 # -----------------------------------------------
-analytics:
-  provider : false   # Set to "google-gtag" and add tracking_id when ready
-  # google:
-  #   tracking_id : "G-XXXXXXXXXX"
-  #   anonymize_ip : true
-
-# -----------------------------------------------
-# COMMENTS
-# -----------------------------------------------
-comments:
-  provider : false   # false (default), "disqus", "discourse", "facebook", "staticman_v2", "utterances"
+# google_analytics : "G-XXXXXXXXXX"
