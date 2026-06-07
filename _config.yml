@@ -1,0 +1,209 @@
+# =============================================================================
+# Sri Koganti | Senior Cloud & MLOps Engineer
+# Jekyll + Minimal Mistakes Theme Configuration
+# =============================================================================
+
+# -----------------------------------------------
+# SITE SETTINGS
+# -----------------------------------------------
+locale                   : "en-IE"
+title                    : "Sri Koganti"
+title_separator          : "|"
+subtitle                 : "Senior Cloud & MLOps Engineer"
+name                     : "Sri Koganti"
+description              : >-
+  Senior Cloud Engineer in Cork, Ireland with 10+ years building enterprise platforms
+  at Fidelity Investments and Forcepoint. AWS Solutions Architect & CKAD certified.
+  Specialising in Kubernetes, MLOps, and AI platform engineering.
+url                      : "https://kogantisharma.github.io"
+baseurl                  : ""
+repository               : "kogantisharma/kogantisharma.github.io"
+teaser                   : "/assets/images/teaser-default.png"
+logo                     : "/assets/images/logo.png"
+masthead_title           : "Sri Koganti"
+breadcrumbs              : true
+words_per_minute         : 200
+enable_copy_code_button  : true
+
+# -----------------------------------------------
+# SEO
+# -----------------------------------------------
+google_site_verification :
+og_image                 : "/assets/images/og-image.png"
+
+social:
+  type : Person
+  name : Sri Koganti
+  links:
+    - "https://www.linkedin.com/in/srikoganti"
+    - "https://github.com/kogantisharma"
+
+# -----------------------------------------------
+# SITE AUTHOR
+# -----------------------------------------------
+author:
+  name     : "Sri Koganti"
+  avatar   : "/assets/images/profile.jpg"
+  bio      : >-
+    Senior Cloud & Platform Engineer in Cork, Ireland. AWS Certified Solutions Architect
+    & CKAD. 10+ years building enterprise platforms at Fidelity Investments and Forcepoint.
+    Building in MLOps and AI Platform Engineering.
+  location : "Cork, Ireland"
+  links:
+    - label : "LinkedIn"
+      icon  : "fab fa-fw fa-linkedin"
+      url   : "https://www.linkedin.com/in/srikoganti"
+    - label : "GitHub"
+      icon  : "fab fa-fw fa-github"
+      url   : "https://github.com/kogantisharma"
+    - label : "CV / Résumé"
+      icon  : "fas fa-fw fa-file-pdf"
+      url   : "/assets/files/Sri_Koganti_CV.pdf"
+
+# -----------------------------------------------
+# THEME
+# -----------------------------------------------
+remote_theme            : "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin   : "dark"   # air | aqua | contrast | dark | dirt | neon | mint | plum | sunrise
+
+# -----------------------------------------------
+# READING FILES
+# -----------------------------------------------
+include:
+  - .htaccess
+  - _pages
+
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .bundle
+  - .sass-cache
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Gemfile.lock
+  - CHANGELOG
+  - LICENSE
+  - README
+  - tmp
+
+keep_files:
+  - .git
+
+encoding        : "utf-8"
+markdown_ext    : "markdown,mkdown,mkdn,mkd,md"
+
+# -----------------------------------------------
+# CONVERSION
+# -----------------------------------------------
+markdown    : kramdown
+highlighter : rouge
+lsi         : false
+excerpt_separator : "\n\n"
+incremental : false
+
+kramdown:
+  input           : GFM
+  hard_wrap       : false
+  auto_ids        : true
+  footnote_nr     : 1
+  entity_output   : as_char
+  toc_levels      : 1..6
+  smart_quotes    : lsquo,rsquo,ldquo,rdquo
+  enable_coderay  : false
+
+# -----------------------------------------------
+# SASS / SCSS
+# -----------------------------------------------
+sass:
+  sass_dir : _sass
+  style    : compressed
+
+# -----------------------------------------------
+# OUTPUTTING
+# -----------------------------------------------
+permalink   : /:categories/:title/
+paginate    : 6
+paginate_path : /blog/page:num/
+timezone    : "Europe/Dublin"
+
+# -----------------------------------------------
+# PLUGINS
+# -----------------------------------------------
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# -----------------------------------------------
+# COLLECTIONS
+# -----------------------------------------------
+collections:
+  projects:
+    output    : true
+    permalink : /projects/:path/
+
+# -----------------------------------------------
+# DEFAULTS
+# -----------------------------------------------
+defaults:
+  # _posts
+  - scope:
+      path : ""
+      type : posts
+    values:
+      layout         : single
+      author_profile : true
+      read_time      : true
+      comments       : false
+      share          : true
+      related        : true
+      show_date      : true
+
+  # _pages
+  - scope:
+      path : "_pages"
+      type : pages
+    values:
+      layout         : single
+      author_profile : true
+
+  # _projects
+  - scope:
+      path : ""
+      type : projects
+    values:
+      layout         : single
+      author_profile : false
+      share          : true
+      toc            : true
+      toc_label      : "On this page"
+      toc_icon       : "list-alt"
+      toc_sticky     : true
+
+# -----------------------------------------------
+# ANALYTICS
+# -----------------------------------------------
+analytics:
+  provider : false   # Set to "google-gtag" and add tracking_id when ready
+  # google:
+  #   tracking_id : "G-XXXXXXXXXX"
+  #   anonymize_ip : true
+
+# -----------------------------------------------
+# COMMENTS
+# -----------------------------------------------
+comments:
+  provider : false   # false (default), "disqus", "discourse", "facebook", "staticman_v2", "utterances"
