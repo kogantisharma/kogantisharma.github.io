@@ -1,13 +1,10 @@
 ---
 title: "Curriculum Vitae"
 permalink: /cv/
-layout: single
-author_profile: true
-toc: true
-toc_sticky: true
+layout: default
 ---
 
-[Download CV (PDF)](/assets/files/Sri_Koganti_CV.pdf){: .btn .btn--primary}
+[Download CV (PDF)](/assets/files/Sri_Koganti_CV.pdf)
 
 ---
 

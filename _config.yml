@@ -1,28 +1,19 @@
 # =============================================================================
 # Sri Koganti | Senior Cloud & Platform Engineer
-# Jekyll + So Simple Theme Configuration
+# Jekyll + Cayman Theme
 # =============================================================================
 
-# -----------------------------------------------
-# SITE SETTINGS
-# -----------------------------------------------
-locale                   : "en-IE"
-title                    : "Sri Koganti"
-title_separator          : "|"
-subtitle                 : "Senior Cloud & Platform Engineer"
-name                     : "Sri Koganti"
-description              : >-
-  Senior Cloud Engineer in Cork, Ireland. 10+ years at Fidelity Investments and Forcepoint.
-  AWS Solutions Architect & CKAD certified. Building toward MLOps and AI Engineering.
-url                      : "https://kogantisharma.github.io"
-baseurl                  : ""
-repository               : "kogantisharma/kogantisharma.github.io"
-words_per_minute         : 200
+title       : "Sri Koganti"
+description : >-
+  Senior Cloud Engineer · Cork, Ireland · AWS SA & CKAD certified.
+  10+ years at Fidelity Investments and Forcepoint. Building toward MLOps & AI Engineering.
+url         : "https://kogantisharma.github.io"
+baseurl     : ""
+repository  : "kogantisharma/kogantisharma.github.io"
 
-# -----------------------------------------------
-# SEO
-# -----------------------------------------------
-google_site_verification :
+theme: jekyll-theme-cayman
+
+google_site_verification:
 
 social:
   type : Person
@@ -32,52 +23,25 @@ social:
     - "https://github.com/kogantisharma"
 
 # -----------------------------------------------
-# SITE AUTHOR
-# -----------------------------------------------
-author:
-  name     : "Sri Koganti"
-  avatar   : "/assets/images/profile.jpg"
-  bio      : >-
-    Senior Cloud & Platform Engineer in Cork, Ireland.
-    AWS SA · CKAD certified. Building toward MLOps and AI Engineering.
-  location : "Cork, Ireland"
-  links:
-    - label : "LinkedIn"
-      icon  : "fab fa-fw fa-linkedin"
-      url   : "https://www.linkedin.com/in/srikoganti"
-    - label : "GitHub"
-      icon  : "fab fa-fw fa-github"
-      url   : "https://github.com/kogantisharma"
-    - label : "Download CV"
-      icon  : "fas fa-fw fa-file-pdf"
-      url   : "/assets/files/Sri_Koganti_CV.pdf"
-
-# -----------------------------------------------
-# THEME
-# -----------------------------------------------
-remote_theme : "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin : "air"   # clean white — professional and minimal
-
-# -----------------------------------------------
 # READING FILES
 # -----------------------------------------------
 include:
-  - .htaccess
   - _pages
 
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - vendor
   - .bundle
   - .sass-cache
   - node_modules
-  - package.json
-  - package-lock.json
   - Gemfile.lock
-  - CHANGELOG
-  - LICENSE
   - README
+  - tmp
+
+keep_files:
+  - .git
+
+encoding     : "utf-8"
+markdown_ext : "markdown,mkdown,mkdn,mkd,md"
   - tmp
 
 keep_files:
@@ -124,19 +88,15 @@ timezone    : "Europe/Dublin"
 # PLUGINS
 # -----------------------------------------------
 plugins:
-  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-include-cache
   - jekyll-seo-tag
 
 whitelist:
-  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-include-cache
   - jekyll-seo-tag
 
 # -----------------------------------------------
@@ -153,24 +113,5 @@ collections:
 defaults:
   - scope:
       path : ""
-      type : posts
     values:
-      layout         : single
-      author_profile : true
-      show_date      : true
-
-  - scope:
-      path : "_pages"
-      type : pages
-    values:
-      layout         : single
-      author_profile : true
-
-  - scope:
-      path : ""
-      type : projects
-    values:
-      layout         : single
-      author_profile : false
-      toc            : true
-      toc_sticky     : true
+      layout : default

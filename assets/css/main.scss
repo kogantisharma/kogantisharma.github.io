@@ -2,5 +2,29 @@
 ---
 
 @charset "utf-8";
-@import "minimal-mistakes/skins/air";
-@import "minimal-mistakes";
+
+/* Cayman custom overrides */
+.site-header {
+  background-color: #1a1a2e;
+}
+
+.btn {
+  border-radius: 3px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  font-size: 0.9em;
+}
+
+table th, table td {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
