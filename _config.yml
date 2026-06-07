@@ -1,30 +1,11 @@
-# =============================================================================
-# Sri Koganti | Senior Cloud & Platform Engineer
-# Jekyll + Cayman Theme
-# =============================================================================
-
-title       : "Sri Koganti"
-description : >-
-  Senior Cloud Engineer · Cork, Ireland · AWS SA & CKAD certified.
-  10+ years at Fidelity Investments and Forcepoint. Building toward MLOps & AI Engineering.
-url         : "https://kogantisharma.github.io"
-baseurl     : ""
-repository  : "kogantisharma/kogantisharma.github.io"
+title: "Sri Koganti"
+description: "Senior Cloud Engineer - Cork, Ireland. AWS SA & CKAD certified. 10+ years at Fidelity Investments and Forcepoint. Building toward MLOps & AI Engineering."
+url: "https://kogantisharma.github.io"
+baseurl: ""
+repository: "kogantisharma/kogantisharma.github.io"
 
 theme: jekyll-theme-cayman
 
-google_site_verification:
-
-social:
-  type : Person
-  name : Sri Koganti
-  links:
-    - "https://www.linkedin.com/in/srikoganti"
-    - "https://github.com/kogantisharma"
-
-# -----------------------------------------------
-# READING FILES
-# -----------------------------------------------
 include:
   - _pages
 
@@ -34,84 +15,31 @@ exclude:
   - .sass-cache
   - node_modules
   - Gemfile.lock
-  - README
+  - README.md
   - tmp
 
-keep_files:
-  - .git
+encoding: "utf-8"
+timezone: "Europe/Dublin"
 
-encoding     : "utf-8"
-markdown_ext : "markdown,mkdown,mkdn,mkd,md"
-  - tmp
-
-keep_files:
-  - .git
-
-encoding        : "utf-8"
-markdown_ext    : "markdown,mkdown,mkdn,mkd,md"
-
-# -----------------------------------------------
-# CONVERSION
-# -----------------------------------------------
-markdown    : kramdown
-highlighter : rouge
-lsi         : false
-excerpt_separator : "\n\n"
-incremental : false
+markdown: kramdown
+highlighter: rouge
 
 kramdown:
-  input           : GFM
-  hard_wrap       : false
-  auto_ids        : true
-  footnote_nr     : 1
-  entity_output   : as_char
-  toc_levels      : 1..6
-  smart_quotes    : lsquo,rsquo,ldquo,rdquo
-  enable_coderay  : false
+  input: GFM
+  auto_ids: true
 
-# -----------------------------------------------
-# SASS / SCSS
-# -----------------------------------------------
-sass:
-  sass_dir : _sass
-  style    : compressed
-
-# -----------------------------------------------
-# OUTPUTTING
-# -----------------------------------------------
-permalink   : /:categories/:title/
-paginate    : 6
-paginate_path : /blog/page:num/
-timezone    : "Europe/Dublin"
-
-# -----------------------------------------------
-# PLUGINS
-# -----------------------------------------------
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
 
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# -----------------------------------------------
-# COLLECTIONS
-# -----------------------------------------------
 collections:
   projects:
-    output    : true
-    permalink : /projects/:path/
+    output: true
+    permalink: /projects/:path/
 
-# -----------------------------------------------
-# DEFAULTS
-# -----------------------------------------------
 defaults:
   - scope:
-      path : ""
+      path: ""
     values:
-      layout : default
+      layout: default
