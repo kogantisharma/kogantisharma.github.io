@@ -1,9 +1,70 @@
 ---
-layout: home
+layout: single
 permalink: /
-title: false
-paginate: false
+author_profile: true
 ---
+
+## Senior Cloud & Platform Engineer
+
+Cork, Ireland &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/srikoganti) &nbsp;·&nbsp; [GitHub](https://github.com/kogantisharma)
+
+I'm a Senior Cloud Engineer with 10+ years designing and operating enterprise-grade
+infrastructure at **Fidelity Investments** and **Forcepoint**. I specialise in
+Kubernetes platform engineering, cloud automation with Terraform and Python, and
+developer tooling at scale.
+
+Currently expanding into **MLOps and AI Engineering** — building hands-on projects
+to bridge deep infrastructure expertise with modern AI delivery.
+
+**Open to:** MLOps Engineer · AI Platform Engineer · Senior Cloud/DevOps Engineer roles
+
+[View my CV &rarr;](/cv/){: .btn .btn--primary} &nbsp; [Download CV](/assets/files/Sri_Koganti_CV.pdf){: .btn .btn--inverse}
+
+---
+
+## Skills
+
+### Proven — Production Experience
+
+| Area | Technologies |
+|------|-------------|
+| **Cloud** | AWS (EKS, ECS, Lambda, CloudFront, S3, CloudWatch, RDS, Kinesis, Athena, SNS, SQS) |
+| **Containers** | Kubernetes · Docker · Helm |
+| **IaC** | Terraform · Ansible · CloudFormation |
+| **CI/CD** | Jenkins · GitHub Actions · GitHub Apps |
+| **Automation** | Python · Bash · Event-driven pipelines · ServiceNow integration |
+| **SRE** | SLIs · SLOs · Error budgets · On-call · Incident management |
+| **Observability** | Datadog · Splunk · Grafana/Prometheus · OpenTelemetry (OTEL) |
+| **Security** | AWS GuardDuty · AWS Inspector · Prisma Cloud · Rapid7 · IAM/RBAC · Azure AD |
+
+### AI / MLOps — Actively Upskilling
+
+Building hands-on projects at the intersection of cloud engineering and AI:
+
+- **LLM applications** — RAG architectures, LangChain, vector databases (Pinecone, FAISS), OpenAI API
+- **ML pipelines** — MLflow, AWS SageMaker, experiment tracking, model registry
+- **AI infrastructure** — containerised model serving, pipeline orchestration, drift monitoring
+
+*Projects in development — publishing soon.*
+
+---
+
+## Career Highlights
+
+| Metric | Achievement |
+|--------|-------------|
+| GitHub platform scale | 50,000+ active repositories (Fidelity) |
+| On-call load reduction | 80% via self-service repo archival automation |
+| DR success rate | 100% across all exercises (Akamai → CloudFront) |
+| E2E test time | 90 min → 30 min via Terraform automation (Forcepoint) |
+| Innovation | TechX Lion's Den finalist · Forcepoint Hackathon winner |
+
+---
+
+## Certifications
+
+- AWS Certified Solutions Architect – Associate
+- Certified Kubernetes Application Developer (CKAD)
 
 <div class="home-intro">
 

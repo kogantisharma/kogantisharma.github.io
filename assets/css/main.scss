@@ -1,22 +1,6 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @charset "utf-8";
-
-@import "so-simple";
-
-// =============================================================================
-// Minor overrides
-// =============================================================================
-
-// Tighten table spacing on skills tables
-.page__content table td:first-child {
-  white-space: nowrap;
-  font-weight: 600;
-}
-
-// Clean CTA button
-.btn {
-  border-radius: 3px;
-}
+@import "minimal-mistakes/skins/air";
+@import "minimal-mistakes";

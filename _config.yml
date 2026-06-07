@@ -55,9 +55,8 @@ author:
 # -----------------------------------------------
 # THEME
 # -----------------------------------------------
-remote_theme : "mmistakes/so-simple-theme@3.2.0"
-skin         : "/assets/css/skins/default.css"
-search       : false
+remote_theme : "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin : "air"   # clean white — professional and minimal
 
 # -----------------------------------------------
 # READING FILES
@@ -129,6 +128,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-include-cache
   - jekyll-seo-tag
 
 whitelist:
@@ -136,6 +136,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-include-cache
   - jekyll-seo-tag
 
 # -----------------------------------------------
@@ -150,30 +151,26 @@ collections:
 # DEFAULTS
 # -----------------------------------------------
 defaults:
-  # _posts
   - scope:
       path : ""
       type : posts
     values:
-      layout    : post
-      show_date : true
+      layout         : single
+      author_profile : true
+      show_date      : true
 
-  # _pages
   - scope:
       path : "_pages"
       type : pages
     values:
-      layout : page
+      layout         : single
+      author_profile : true
 
-  # _projects
   - scope:
       path : ""
       type : projects
     values:
-      layout : page
-      toc    : true
-
-# -----------------------------------------------
-# ANALYTICS (enable when ready)
-# -----------------------------------------------
-# google_analytics : "G-XXXXXXXXXX"
+      layout         : single
+      author_profile : false
+      toc            : true
+      toc_sticky     : true

@@ -1,7 +1,8 @@
 ---
 title: "About Me"
 permalink: /about/
-layout: page
+layout: single
+author_profile: true
 ---
 
 ## Senior Cloud & Platform Engineer

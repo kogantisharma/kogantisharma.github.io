@@ -1,7 +1,8 @@
 ---
 title: "Projects"
 permalink: /projects/
-layout: page
+layout: single
+author_profile: true
 ---
 
 A selection of personal MLOps and AI engineering projects that demonstrate
