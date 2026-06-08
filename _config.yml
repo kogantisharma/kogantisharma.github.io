@@ -3,9 +3,9 @@ description: "Senior Cloud Engineer - Cork, Ireland. AWS SA & CKAD certified. 10
 url: "https://kogantisharma.github.io"
 baseurl: ""
 repository: "kogantisharma/kogantisharma.github.io"
-
-remote_theme: "vidhyav656/startbootstrap-stylish-portfolio-jekyll"
 author: "Sri Koganti"
+
+theme: jekyll-theme-cayman
 
 include:
   - _pages
@@ -21,7 +21,6 @@ exclude:
 
 encoding: "utf-8"
 timezone: "Europe/Dublin"
-
 markdown: kramdown
 highlighter: rouge
 
@@ -30,7 +29,6 @@ kramdown:
   auto_ids: true
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag

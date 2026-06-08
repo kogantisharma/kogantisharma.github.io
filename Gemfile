@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
+gem "jekyll-theme-cayman"
 
 group :jekyll_plugins do
-  gem "jekyll-remote-theme"
   gem "jekyll-sitemap"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag"
