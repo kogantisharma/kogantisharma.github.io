@@ -8,7 +8,7 @@ I build reliable, scalable infrastructure and developer platforms that let teams
 ---
 
 #### Story
-I began programming microcontrollers like the MCP430, where memory and CPU were so limited I had to think ten times before writing a single line of code. Those constraints taught me discipline and an obsession with correctness. To speed up a three‑hour manual test for remote speaker microphones, I built a Python test jig that completed the same checks in under ten minutes. That habit—find the real problem, design a pragmatic solution, automate it—has guided my work ever since.
+I began programming microcontrollers like the MSP430, where memory and CPU were so limited I had to think ten times before writing a single line of code. Those constraints taught me discipline and an obsession with correctness. To speed up a three‑hour manual test for remote speaker microphones, I built a Python test jig that completed the same checks in under ten minutes. That habit—find the real problem, design a pragmatic solution, automate it—has guided my work ever since.
 
 As systems scaled, the problems evolved: from tight resource constraints to performance and security, and then to availability, resilience, and developer experience. That path led me into DevOps, platform engineering, and cloud-native architectures. I enjoy solving the operational problems that make production systems reliable and teams more productive.
 
@@ -16,20 +16,20 @@ As systems scaled, the problems evolved: from tight resource constraints to perf
 
 #### Impact highlights
 - **Reduced manual test time** from 3 hours to under 10 minutes with a Python test jig.  
+- **Cut microservice release ritual** from 3 days to 3 hours by building an orchestration pipeline that automated fleet deployments and release tasks.
 - **Reduced on‑call rota load by 80%** through self‑service automation.  
 - **Delivered multi‑region DR** for CDN failover with verified recovery.  
-- **Cut infra deployment time** from 90 to 30 minutes using Terraform and automation.
+- **Cut test infra deployment time** from 90 minutes everytime to 5 minutes using Terraform and automation.
 
 ---
 
 #### Skills
-**Cloud**: AWS (EKS, VPC, IAM)  
+**Cloud**: AWS 
 **IaC**: Terraform, CloudFormation  
 **CI/CD**: GitHub Actions, Jenkins  
 **Containers**: Docker, Kubernetes  
 **Observability**: Datadog, Prometheus, Grafana, OpenTelemetry  
 **Languages**: Python, Bash  
-**Security**: Prisma Cloud, AWS GuardDuty, IAM/RBAC
 
 ---
 
