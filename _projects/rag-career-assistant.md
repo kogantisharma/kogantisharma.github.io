@@ -48,7 +48,7 @@ from document ingestion pipelines through to containerised deployment with autom
 The project was designed with production constraints in mind — not just a Jupyter notebook demo,
 but a maintainable, observable, and safely deployable system.
 
-**Live demo:** [rag-assistant.kogantisharma.io](https://rag-assistant.kogantisharma.io) *(placeholder)*
+**Live demo:** [rag-assistant.kogantisharma.io](https://rag-assistant.kogantisharma.io)
 
 ---
 

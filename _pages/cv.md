@@ -14,8 +14,8 @@ from embedded systems through Python development, DevOps, and enterprise-grade K
 engineering. Currently at **Fidelity Investments**, supporting a global GitHub Cloud Platform
 powering **50,000+ active repositories**. AWS Certified Solutions Architect (Associate) and CKAD certified.
 
-Actively building expertise in **MLOps and AI Platform Engineering**, combining deep infrastructure
-experience with hands-on LLM application and ML pipeline development.
+Building and applying **MLOps and AI Platform Engineering** capability, combining deep infrastructure
+experience with hands-on LLM application and ML pipeline delivery.
 
 **Core strengths:** Cloud architecture · Platform engineering · Event-driven automation · SRE
 principles · Kubernetes at scale · Developer platform tooling · Python automation
@@ -34,9 +34,9 @@ principles · Kubernetes at scale · Developer platform tooling · Python automa
 `IAM / RBAC` `Azure Active Directory` `Secrets management`
 `SRE (SLIs / SLOs / error budgets)` `Event-driven automation` `Multi-region DR`
 
-### AI / MLOps — Actively Upskilling
+### AI / MLOps — Applied Project Experience
 
-> Building hands-on projects to demonstrate production-grade AI engineering.
+> Delivering hands-on projects that demonstrate production-grade AI engineering.
 
 `LangChain` `RAG architectures` `Pinecone` `FAISS` `OpenAI API` `HuggingFace Transformers`
 `MLflow` `AWS SageMaker` `DVC` `Kubeflow` `Vector databases` `Prompt engineering`

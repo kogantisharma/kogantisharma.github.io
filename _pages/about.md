@@ -3,14 +3,14 @@ permalink: /about/
 layout: default
 ---
 ### I’m Sri Koganti
-I build reliable, scalable infrastructure and developer platforms that let teams move faster and operate with confidence. I am now focused on bringing production-grade platform practices into MLOps and AI engineering.
+I build reliable, scalable infrastructure and developer platforms that let teams move faster and operate with confidence. I bring production-grade platform practices into MLOps and AI engineering.
 
 ---
 
 #### Story
 I began programming microcontrollers like the MSP430, where memory and CPU were limited enough that every line had to be deliberate. Those constraints built discipline and a bias for correctness. To speed up a three-hour manual test for remote speaker microphones, I built a Python test jig that completed the same checks in under ten minutes. That habit has guided my work ever since: find the bottleneck, design a pragmatic fix, and automate the routine.
 
-As systems scaled, the problems evolved: from tight resource constraints to performance and security, then to availability, resilience, and developer experience. That path led me into DevOps, platform engineering, and cloud-native architecture. Today, I am extending that same production focus into MLOps and AI platform work.
+As systems scaled, the problems evolved: from tight resource constraints to performance and security, then to availability, resilience, and developer experience. That path led me into DevOps, platform engineering, and cloud-native architecture. Today, I apply that same production focus to AI platform and MLOps work.
 
 ---
 
@@ -36,7 +36,9 @@ As systems scaled, the problems evolved: from tight resource constraints to perf
 ---
 
 #### What I’m looking for
-Senior roles in MLOps, platform engineering, or cloud infrastructure; consulting on production ML pipelines; collaborations on open-source tooling.
+- **Role types:** MLOps Engineer · AI Platform Engineer · Senior Cloud & Platform Engineer
+- **Scope:** Platform engineering, cloud infrastructure, and production AI systems
+- **Engagement:** Full-time roles and consulting on production ML pipelines
 
 
 ## Why MLOps?

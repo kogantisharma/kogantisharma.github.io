@@ -5,7 +5,7 @@ layout: default
 
 ## Get in Touch
 
-I'm currently open to **MLOps Engineer**, **AI Platform Engineer**, and **Senior Cloud/DevOps Engineer**
+I'm currently open to **MLOps Engineer**, **AI Platform Engineer**, and **Senior Cloud & Platform Engineer**
 roles — ideally in Cork, Ireland or remote.
 
 If you're hiring, collaborating, or just want to discuss cloud and AI architecture,
@@ -25,7 +25,7 @@ I'd love to hear from you.
 
 ### What I'm Looking For
 
-- **Role types:** MLOps Engineer · AI Platform Engineer · Senior Cloud/DevOps Engineer
+- **Role types:** MLOps Engineer · AI Platform Engineer · Senior Cloud & Platform Engineer
 - **Environment:** A team where infrastructure and ML engineering intersect
 - **Stack:** Python · Kubernetes · AWS/GCP · LLM tooling · CI/CD
 - **Notice:** Open to conversations for immediate and near-term opportunities

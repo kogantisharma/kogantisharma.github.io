@@ -50,7 +50,7 @@ No manual steps required.
 │   └── files/               # CV PDF
 └── .github/
     └── workflows/
-        └── pages.yml        # CI/CD — build & deploy to GitHub Pages
+        └── deploy.yml       # CI/CD — build & deploy to GitHub Pages
 ```
 
 ## Customisation Checklist
@@ -61,9 +61,9 @@ Before going live, update the following placeholders:
 - [ ] `_pages/cv.md` — Fill in real job dates, university, certifications
 - [ ] `_pages/contact.md` — Review role preferences and outreach details
 - [ ] `assets/images/` — Add `profile.jpg`, `hero-bg.jpg`, project thumbnails
-- [ ] `assets/files/Sri_Koganti_Resume__AI.pdf` — Add PDF CV
+- [x] `assets/files/Sri_Koganti_Resume__AI.pdf` — Add PDF CV
 - [ ] `_projects/*.md` — Update GitHub repo links once repos are public
 
 ## License
 
-Content © Sri Koganti. Theme ([Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)) © Michael Rose, MIT License.
+Content © Sri Koganti. Theme ([Jekyll Cayman](https://github.com/pages-themes/cayman)) © GitHub, MIT License.
