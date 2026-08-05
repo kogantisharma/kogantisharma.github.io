@@ -59,4 +59,4 @@ When I am not architecting systems, I am exploring the hiking trails around Cork
 ---
 
 [View my CV &rarr;](/cv/)
-[See my projects →](/projects/){: .btn .btn--inverse}
+[Contact me →](/contact/){: .btn .btn--inverse}

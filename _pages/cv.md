@@ -9,16 +9,13 @@ layout: default
 
 ## Professional Summary
 
-Senior Cloud & Platform Engineer with 10+ years of experience across the full engineering spectrum —
-from embedded systems through Python development, DevOps, and enterprise-grade Kubernetes platform
-engineering. Currently at **Fidelity Investments**, supporting a global GitHub Cloud Platform
-powering **50,000+ active repositories**. AWS Certified Solutions Architect (Associate) and CKAD certified.
-
-Building and applying **MLOps and AI Platform Engineering** capability, combining deep infrastructure
-experience with hands-on LLM application and ML pipeline delivery.
+Senior Cloud & Platform Engineer with 13+ years of experience across embedded systems, Python
+development, DevOps, and enterprise Kubernetes platform engineering. Currently at **Fidelity
+Investments**, supporting a global GitHub Cloud Platform powering **50,000+ active repositories**.
+AWS Certified Solutions Architect (Associate) and CKAD certified.
 
 **Core strengths:** Cloud architecture · Platform engineering · Event-driven automation · SRE
-principles · Kubernetes at scale · Developer platform tooling · Python automation
+principles · Kubernetes at scale · Developer platform tooling · Python automation · Internal AI tooling
 
 ---
 
@@ -34,12 +31,9 @@ principles · Kubernetes at scale · Developer platform tooling · Python automa
 `IAM / RBAC` `Azure Active Directory` `Secrets management`
 `SRE (SLIs / SLOs / error budgets)` `Event-driven automation` `Multi-region DR`
 
-### AI / MLOps — Applied Project Experience
+### AI / MLOps — Current Focus
 
-> Delivering hands-on projects that demonstrate production-grade AI engineering.
-
-`LangChain` `RAG architectures` `Pinecone` `FAISS` `OpenAI API` `HuggingFace Transformers`
-`MLflow` `AWS SageMaker` `DVC` `Kubeflow` `Vector databases` `Prompt engineering`
+`GitHub Copilot API` `Sonar` `Prompt engineering` `LLM onboarding workflows` `Internal developer tooling`
 
 ---
 
@@ -73,6 +67,7 @@ Fidelity's worldwide engineering organisation.
 - Led enterprise-wide **secure coding and secrets-management workshops** across engineering teams
 - Streamlined identity and access governance — GitHub Teams integrated with **Azure AD**
   for consistent RBAC and automated lifecycle management
+- Supported onboarding and adoption workflows for **Sonar** and **GitHub Copilot API** in internal developer tooling contexts
 - **TechX Lion's Den innovation programme** finalist
 
 **Technologies:** AWS (EKS, CloudFront, Lambda, S3, CloudWatch), Kubernetes, Terraform, Python,
@@ -169,15 +164,11 @@ GitHub Apps, ServiceNow, Datadog, Splunk, Grafana/Prometheus, OpenTelemetry, Azu
 
 ---
 
-## Personal Projects — MLOps & AI
+## Personal Projects
 
-> Demonstrating active transition into MLOps and AI Platform Engineering
+> Projects are currently under build and not published on the site yet.
 
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [RAG Career Assistant](/projects/rag-career-assistant/) | LangChain · Pinecone · GPT-4 · AWS ECS | Production RAG application with full CI/CD pipeline |
-| [MLOps Pipeline on AWS](/projects/mlops-aws-pipeline/) | SageMaker · MLflow · Terraform · GitHub Actions | End-to-end ML pipeline with model registry and drift monitoring |
-| [Cloud AI Serving Platform](/projects/cloud-ai-platform/) | KServe · Kubernetes · ArgoCD · Helm | Multi-tenant model serving platform with autoscaling |
+If needed, I can share working prototypes and architecture notes privately.
 
 ---
 
