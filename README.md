@@ -59,9 +59,9 @@ Before going live, update the following placeholders:
 
 - [ ] `_config.yml` — `email`, `google_site_verification`, analytics tracking ID
 - [ ] `_pages/cv.md` — Fill in real job dates, university, certifications
-- [ ] `_pages/contact.md` — Update availability date
+- [ ] `_pages/contact.md` — Review role preferences and outreach details
 - [ ] `assets/images/` — Add `profile.jpg`, `hero-bg.jpg`, project thumbnails
-- [ ] `assets/files/Sri_Koganti_CV.pdf` — Add PDF CV
+- [ ] `assets/files/Sri_Koganti_Resume__AI.pdf` — Add PDF CV
 - [ ] `_projects/*.md` — Update GitHub repo links once repos are public
 
 ## License

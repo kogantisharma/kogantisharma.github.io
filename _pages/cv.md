@@ -3,7 +3,7 @@ permalink: /cv/
 layout: default
 ---
 
-[Download CV (PDF)](/assets/files/Sri_Koganti_CV.pdf)
+[Download CV (PDF)](/assets/files/Sri_Koganti_Resume__AI.pdf)
 
 ---
 
